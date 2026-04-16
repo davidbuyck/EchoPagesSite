@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Echo Simulator</title>
+  <meta
+    name="description"
+    content="Echo Simulator is an advanced, interactive 3D XR platform for mastering cardiac ultrasound, anatomy, physiology, and electrophysiology."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-home">
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="Echo Simulator home">
+        <img src="assets/app_icon.png" alt="Echo Simulator icon" class="brand-icon" />
+        <span class="brand-wordmark">ECHO SIMULATOR</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Primary navigation">
+        <a href="/access/" class="btn btn-primary btn-sm">Get Access</a>
+      </nav>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="/access/">Get Access</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-image hero-image-home"></div>
+      <div class="hero-overlay hero-overlay-home"></div>
+
+      <div class="container hero-content hero-content-left">
+        <div class="hero-copy hero-copy-home">
+          <h1>Master Echocardiography Through Real-Time 3D Understanding</h1>
+          <h2>
+            The Echo Simulator is a next-generation cardiac training platform that unifies ultrasound, anatomy, physiology, and electrophysiology into a single interactive system—built for physicians, educators, and institutions.
+          </h2>      
+            
+          
+          <div class="request-buttons">
+             <a href="/access/" class="btn btn-primary">
+            Get Access
+          </a>
+        </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="unified-platform section">
+      <div class="container">
+        <div class="unified-platform-panel">
+          <p class="band-label">Why the Echo Simulator</p>
+          <h2 class="section-title unified-platform-title">A Unified Cardiac Understanding Platform</h2>
+          <p class="section-lead unified-platform-lead">
+            Most training tools isolate anatomy, ultrasound, or electrophysiology.
+            Echo Simulator integrates them into a single real-time system—allowing users
+            to understand how structure, function, and electrical activity interact.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="echo-sections section">
+      <div class="container">
+        <h3 class="section-title">Echocardiography Training</h3>
+
+        <article class="feature-band tte-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Echo Training</p>
+              <h3>TTE</h3>
+              <p>
+                Develop a clinically relevant understanding of transthoracic echocardiography by connecting probe position, cardiac anatomy, and image interpretation in real time.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/TTE2.PNG" alt="TTE view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/TTE.PNG" alt="TTE view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-band tee-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Echo Training</p>
+              <h3>TEE</h3>
+              <p>
+                Train transesophageal echocardiography with spatial awareness of probe manipulation, cardiac structures, and imaging planes—bridging conceptual knowledge with procedural understanding.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/TEE2.PNG" alt="TEE view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/TEE.PNG" alt="TEE view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-band ice-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Echo Training</p>
+              <h3>ICE</h3>
+              <p>
+                Understand intracardiac echocardiography from a procedural perspective, including catheter-based imaging, spatial orientation, and real clinical use cases.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/ICE2.PNG" alt="ICE view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/ICE.PNG" alt="ICE view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="education-section section" id="education">
+      <div class="container">
+        <h3 class="section-title">Cardiac Education</h3>
+
+        <article class="feature-band education-band anatomy-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Cardiac Education</p>
+              <h3>Anatomy</h3>
+              <p>
+                Interact with high-resolution cardiac anatomy in 3D, including chambers, valves, coronary structures, and spatial relationships essential for imaging and intervention.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/Anatomy2.PNG" alt="Anatomy view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/Anatomy.PNG" alt="Anatomy view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-band education-band physiology-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Cardiac Education</p>
+              <h3>Physiology</h3>
+              <p>
+                Understand dynamic cardiac function through synchronized visualization of motion, flow, pressure, and timing—bridging physiology with imaging and clinical interpretation.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/Phys2.PNG" alt="Physiology view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/Phys.PNG" alt="Physiology view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <article class="feature-band education-band ep-band">
+          <div class="feature-band-inner">
+            <div class="feature-band-copy">
+              <p class="band-label">Cardiac Education</p>
+              <h3>Electrophysiology</h3>
+              <p>
+                Visualize cardiac conduction, activation patterns, and ECG relationships in real time, enabling a deeper understanding of electrical behavior and its clinical implications.
+              </p>
+            </div>
+
+            <div class="feature-band-media">
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/EP2.PNG" alt="Electrophysiology view 1" />
+              </div>
+              <div class="feature-band-img-wrap">
+              <img class="feature-band-img" src="assets/EP.PNG" alt="Electrophysiology view 2" />
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="privacy-section section">
+      <div class="container">
+        <div class="privacy-panel">
+          <div class="privacy-copy">
+            <p class="band-label">Privacy &amp; Security</p>
+            <h3>Privacy and security are essential.</h3>
+
+            <p>
+              Echo Simulator is built for environments where privacy is critical.
+No user data is collected, stored, or transmitted. The platform operates entirely locally, with no reliance on internet connectivity—making it suitable for clinical, academic, and secure institutional use.
+            </p>
+
+            <p class="privacy-intro">
+              For transparency, we encourage you to read the full privacy policy so you
+              can buy with confidence.
+            </p>
+
+            <div class="privacy-policy-details">
+              <div class="privacy-policy-header">
+                <h4>Privacy Policy for Echo Simulator</h4>
+                <p><strong>Effective Date:</strong> January 1, 2026</p>
+              </div>
+
+              <div class="privacy-policy-grid">
+                <article class="policy-item">
+                  <h5>Scope</h5>
+                  <p>
+                    This privacy policy applies to the Echo Simulator application
+                    developed by AstrumArc LLC.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Data Collection</h5>
+                  <p>
+                    Echo Simulator does not collect, store, transmit, or share personal
+                    data or personally identifiable information.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Data Use</h5>
+                  <p>
+                    Because no personal data is collected, no user data is used for
+                    analytics, advertising, profiling, tracking, or external processing.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Third-Party Services</h5>
+                  <p>
+                    Echo Simulator does not use third-party analytics services,
+                    advertising SDKs, tracking technologies, or external data collection
+                    services within the app.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Internet and Wireless Connectivity</h5>
+                  <p>
+                    Echo Simulator does not require internet access or wireless
+                    connectivity during normal use. Core functionality runs locally on
+                    the device.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Data Storage</h5>
+                  <p>
+                    Echo Simulator does not upload user data to external servers or
+                    cloud services. Any app content required for use is stored locally
+                    on the device.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>User Rights</h5>
+                  <p>
+                    Since Echo Simulator does not collect or retain personal data, there
+                    is no personal data to access, correct, export, or delete. If you
+                    have privacy questions or concerns, you may contact us directly.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Children's Privacy</h5>
+                  <p>
+                    Echo Simulator does not knowingly collect personal information from
+                    children or any other users.
+                  </p>
+                </article>
+
+                <article class="policy-item">
+                  <h5>Changes to This Policy</h5>
+                  <p>
+                    If this privacy policy is updated in the future, the revised version
+                    will be posted with an updated effective date.
+                  </p>
+                </article>
+
+                <article class="policy-item policy-item-contact">
+                  <h5>Contact Information</h5>
+                  <p>
+                    AstrumArc LLC<br>
+                    Email: hello@echosimulator.com
+                  </p>
+                </article>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-showcase section">
+      <div class="container cta-grid">
+        <div class="cta-copy">
+          <h3>Ready to Train, Teach, and Understand the Heart at a Deeper Level?</h3>
+          <p class="cta-subtitle">Get Started with Echo Simulator Today</p>
+
+          <ul class="check-list">
+            <li>Advanced interactive cardiac ultrasound training</li>
+            <li>Comprehensive anatomy, physiology, and electrophysiology modules</li>
+            <li>Built to create a deep spatial understanding of the heart</li>
+          </ul>
+
+          <a href="/access/" class="btn btn-primary buy-btn">Get Access</a>
+
+          <div class="platform-icons">
+            <span>iOS</span>
+            <span>Android</span>
+            <span>PC / Mac</span>
+          </div>
+        </div>
+
+        <div class="cta-visual">
+          <div class="ring ring-1"></div>
+          <div class="ring ring-2"></div>
+
+          <div class="device-panel">
+            <img src="assets/ICE.PNG" alt="Echo Simulator app preview" />
+          </div>          
+
+          <div class="funnel-core">
+            <img src="assets/app_icon.png" alt="Echo Simulator icon" />
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Echo Simulator</div>
+        <p>© <span id="year"></span> AstrumArc LLC. All rights reserved.</p>
+      </div>
+
+      <nav class="footer-links" aria-label="Footer navigation">
+        <a href="/access/">Get Access</a>
+        <a href="https://astrumarc.com">AstrumArc</a>
+      </nav>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

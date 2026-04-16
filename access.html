@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Get Access | Echo Simulator</title>
+  <meta
+    name="description"
+    content="Get access to Echo Simulator on the App Store, Google Play, or request Windows, Mac, and Linux builds directly."
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body class="theme-access">
+  <header class="topbar">
+    <div class="container nav">
+      <a class="brand" href="/" aria-label="Echo Simulator home">
+        <img src="assets/app_icon.png" alt="Echo Simulator icon" class="brand-icon" />
+        <span class="brand-wordmark">ECHO SIMULATOR</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false">
+        <span></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="/">Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero hero-home">
+      <div class="hero-image hero-image-home"></div>
+      <div class="hero-overlay hero-overlay-home"></div>
+
+      <div class="container hero-content hero-content-left">
+        <div class="hero-copy hero-copy-home">
+          <h1>Access the Next Generation of Cardiac Training</h1>
+          <p class="access-subtitle">Available on mobile, desktop, and institutional deployments</p>
+
+          <ul class="access-bullets">
+            <li>Real-time echocardiography simulation</li>
+            <li>Integrated anatomy, physiology, and electrophysiology</li>
+            <li>Spatial 3D visualization of cardiac function</li>
+            <li>Designed for physicians, educators, and institutions</li>
+          </ul>
+
+          <div class="request-buttons">
+             <a href="access.html#choose-access" class="btn btn-primary btn-cta">
+            Institutional Pricing & Desktop Access
+          </a>
+        </div>
+
+          <div class="store-button-row left-aligned  store-secondary">
+            <a href="#" class="image-button" aria-label="Download on the Apple App Store">
+              <img src="assets/AppleIcon.png" alt="Download on the App Store" />
+              <span>Apple App Store</span>
+            </a>
+            <a href="#" class="image-button" aria-label="Get it on Google Play">
+              <img src="assets/GoogleIcon.png" alt="Get it on Google Play" />
+              <span>Google Play</span>
+            </a>
+          </div>
+
+
+        </div>
+      </div>
+    </section>
+
+    <section class="proof section">
+      <div class="container">
+        <h2 class="section-title">Built from years of cardiac simulation development at the University of Minnesota Visible Heart Laboratories</h2>
+        <p class="section-lead wide">
+          Built by a developer with many XR apps shipped in over 137 countries and more than 25,000 installs across released educational applications.
+        </p>
+
+        <div class="review-grid">
+          <article class="review-card">
+            <div class="review-image">
+              <img src="assets/UMNTTE.jpg" alt="App review image 1" />
+            </div>
+            <div class="review-copy">
+              <h3>UMN TTE</h3>
+              <p>Basic Transthoracic Echocardiography education app with 2,000+ installs in 130+ countries</p>
+            </div>
+          </article>
+
+          <article class="review-card">
+            <div class="review-image">
+              <img src="assets/UMNTEE.jpg" alt="App review image 2" />
+            </div>
+            <div class="review-copy">
+              <h3>UMN TEE</h3>
+              <p>Basic Trasesophageal Echocardiography education app with 5,000+ installs in 70+ countries</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="deal-sections section">
+      <div class="container value-grid">
+        <article class="value-card">
+          <h3>Unified Cardiac Understanding</h3>
+          <p>
+            Integrates imaging, anatomy, physiology, and electrophysiology into a single system.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <h3>Clinically Relevant Training</h3>
+          <p>
+            Designed to reflect how cardiac concepts are used in real clinical environments.
+          </p>
+        </article>
+
+        <article class="value-card">
+          <h3>Scalable for Institutions</h3>
+          <p>
+            Deployable across individuals, labs, and training programs with flexible access models.
+          </p>
+        </article>
+      </div>
+    </section>
+
+    <section id="choose-access" class="conversion section">
+  <div class="container conversion-panel">
+    <div class="conversion-copy">
+  <h2>Get Access</h2>
+  <p>
+    Built for institutions, labs, and advanced users.
+  </p>
+</div>
+
+<div class="conversion-actions">
+  <div class="request-info">
+    <p>
+      <strong>Request desktop builds or institutional access.</strong>
+    </p>
+  </div>
+
+      <form class="contact-form"
+      action="https://formspree.io/f/xvzgvyap"
+      method="POST"
+      novalidate>
+
+  <input type="hidden" name="_subject" value="Echo Simulator Access Request" />
+  <input type="hidden" name="_template" value="table" />
+  <input type="text" name="_gotcha" style="display:none" />
+
+  <div class="form-grid">
+    <label>
+      <span>Name</span>
+      <input type="text" name="name" placeholder="Your name" />
+    </label>
+    <label>
+      <span>Email</span>
+      <input type="email" name="email" placeholder="Your email" required />
+    </label>
+  </div>
+
+  <label>
+    <span>Organization</span>
+    <input type="text" name="organization" placeholder="Institution, company, or lab" />
+  </label>
+
+  <label>
+    <span>Message</span>
+    <textarea name="message" rows="6" placeholder="Tell us what access you need." required></textarea>
+  </label>
+
+  <button type="submit" class="btn btn-primary btn-cta">Request Access</button>
+
+  <div class="form-status" id="formStatus"></div>
+</form>
+
+      <div class="request-info individual-access-note">
+        <p>
+          <strong>Individual mobile access:</strong> download Echo Simulator below.
+        </p>
+      </div>
+
+      <div class="store-button-row store-secondary">
+        <a href="#" class="image-button" aria-label="Download on the Apple App Store">
+          <img src="assets/AppleIcon.png" alt="Download on the App Store" />
+          <span>Apple App Store</span>
+        </a>
+        <a href="#" class="image-button" aria-label="Get it on Google Play">
+          <img src="assets/GoogleIcon.png" alt="Get it on Google Play" />
+          <span>Google Play</span>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-left">
+        <div class="footer-brand">Echo Simulator</div>
+        <p>© <span id="year"></span> AstrumArc LLC. All rights reserved.</p>
+      </div>      
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
