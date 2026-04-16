@@ -189,7 +189,7 @@ button,input,textarea{font:inherit}
   align-items:center;
 }
 .hero-image-home{
-  background: url("assets/Anatomy2.PNG") center center / cover no-repeat;
+  background: url("assets/Anatomy2.webp") center center / cover no-repeat;
 }
 .hero-overlay-home{
   background:
@@ -693,7 +693,7 @@ button,input,textarea{font:inherit}
   align-items:center;
 }
 .hero-image-access{
-  background:url("assets/access_mockup.png") center center / cover no-repeat;
+  background:url("assets/access_mockup.webp") center center / cover no-repeat;
 }
 .hero-overlay-access{
   background:
