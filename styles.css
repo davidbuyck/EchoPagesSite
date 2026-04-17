@@ -14,8 +14,11 @@
   --container:1220px;
 }
 
+
+
 *{box-sizing:border-box}
-html{scroll-behavior:smooth}
+html{scroll-behavior:smooth;
+  background:#030812;}
 body{
   margin:0;
   font-family:Inter,system-ui,sans-serif;
